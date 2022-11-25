@@ -67,14 +67,13 @@ p {
   display: block;
 }
 
-.about-paragraphs {
-  margin: 30px 0;
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
 }
-
-.about-paragraphs p {
-  margin: 10px;
+.about-section h2 {
+  font-size: 18px;
 }
-
 .email-link {
   display: flex;
   justify-content: center;
@@ -82,9 +81,19 @@ p {
   font-size: 28px;
   text-decoration: none;
 }
-
+img {
+  max-height: 500px;
+}
 .email-link:hover {
   text-decoration: underline;
+}
+.btn-branding {
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
 @media (max-width: 576px) {
   h1 {
@@ -102,5 +111,9 @@ p {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+  .about-section-content {
+    text-align: center;
+    margin: 0;
   }
 }

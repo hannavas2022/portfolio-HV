@@ -8,6 +8,7 @@
 
 body {
   margin-top: 100px;
+  font-family: var(--default-font-family);
 }
 
 h1,
@@ -33,7 +34,7 @@ h3 {
 
 p {
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 30px;
 }
 
 .navigation-links {
@@ -77,6 +78,13 @@ p {
 }
 .content-container h2 {
   font-size: 18px;
+}
+.content-container h3 {
+  font-family: var(--default-font-family);
+  opacity: 1;
+}
+.content-container p {
+  font-size: 14px;
 }
 .email-link {
   display: flex;

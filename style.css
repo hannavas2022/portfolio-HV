@@ -69,11 +69,11 @@ p {
   display: block;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
 }
 .email-link {
@@ -114,7 +114,7 @@ img {
     text-align: center;
     margin: 0 20px;
   }
-  .about-section-content {
+  .content {
     text-align: center;
     margin: 0;
   }

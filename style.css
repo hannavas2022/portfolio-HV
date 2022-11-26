@@ -85,6 +85,7 @@ p {
 }
 .content-container p {
   font-size: 14px;
+  padding-left: 10px;
 }
 .email-link {
   display: flex;

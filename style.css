@@ -31,7 +31,9 @@ h3 {
   font-size: 24px;
   opacity: 0.7;
 }
-
+h4 {
+  font-size: 48px;
+}
 p {
   font-size: 18px;
   line-height: 30px;
@@ -107,6 +109,33 @@ img {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.fab,
+.far {
+  font-weight: 400;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer .contact-box {
+  margin: 120px;
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
 }
 @media (max-width: 576px) {
   h1 {

@@ -39,6 +39,35 @@ p {
   line-height: 30px;
 }
 
+nav {
+  margin: 20px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -123,13 +152,18 @@ footer .social-links a {
   font-size: 18px;
   transition: all 100ms ease-in-out;
 }
-footer .email-link:hover {
-  color: var(--branding-color);
+footer .social-links a:hover {
+  color: white;
+  background: var(--primary-color);
 }
 footer .email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
+}
+footer .email-link:hover {
+  color: var(--primary-color);
+  text-decoration: none;
 }
 footer .contact-box {
   margin: 120px;

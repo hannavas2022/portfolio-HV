@@ -77,9 +77,10 @@ nav a {
 
 .primary-link {
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 30px;
   text-decoration: none;
   text-transform: capitalize;
+  font-size: 18px;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;

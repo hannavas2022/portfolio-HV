@@ -95,12 +95,6 @@ nav a {
   border: 1px solid var(--primary-color);
 }
 
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
 .content-container h1 {
   font-size: 64px;
   line-height: 80px;
